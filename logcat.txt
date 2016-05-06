@@ -1,0 +1,95 @@
+04-20 22:04:32.560  4766  4766 I Timeline: Timeline: Activity_launch_request id:buddys.waterless time:90877569
+04-20 22:04:32.570  3551  3690 D ISSUE_DEBUG: InputChannelName : cff81ed Starting buddys.waterless
+04-20 22:04:32.570  3551  3590 D GameManagerService: identifyGamePackage. buddys.waterless
+04-20 22:04:32.570  3551  3590 D MultiWindowPolicy: Gamemode - return 0,  when calling  identifyForegroundApp(buddys.waterless)
+04-20 22:04:32.570  3551  3590 V WindowManager: addAppToken: AppWindowToken{998a896 token=Token{d9dbb1 ActivityRecord{fffce58 u0 buddys.waterless/.MainActivity t25935}}} to stack=1 task=25935 at 0
+04-20 22:04:32.600 16853 16853 W SELinux : SELinux: seapp_context_lookup: seinfo=default, level=s0:c512,c768, pkgname=buddys.waterless 
+04-20 22:04:32.600  3551  4197 I ActivityManager: Start proc 16853:buddys.waterless/u0a284 for activity buddys.waterless/.MainActivity
+04-20 22:04:32.610  3551  3690 V WindowStateAnimator: Finishing drawing window Window{cff81ed u0 d0 Starting buddys.waterless}: mDrawState=DRAW_PENDING
+04-20 22:04:32.620  3551  4271 D ActivityManager:  Launching buddys.waterless, updated priority
+04-20 22:04:32.630 16853 16853 W System  : ClassLoader referenced unknown path: /data/app/buddys.waterless-1/lib/arm64
+04-20 22:04:32.630 16853 16853 D InjectionManager: fillFeatureStoreMap buddys.waterless
+04-20 22:04:32.630 16853 16853 I InjectionManager: Constructor buddys.waterless, Feature store :{}
+04-20 22:04:32.630  3551  3657 V MARsPolicyManager: updatePackagesScore PackageInfo name -- buddys.waterless
+04-20 22:04:32.630 16853 16853 W ResourcesManager: getTopLevelResources: /data/app/buddys.waterless-1/base.apk / 1.0 running in buddys.waterless rsrc of package buddys.waterless
+04-20 22:04:32.630  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{cff81ed u0 d0 Starting buddys.waterless}
+04-20 22:04:32.640 16853 16853 E AndroidRuntime: Process: buddys.waterless, PID: 16853
+04-20 22:04:32.640 16853 16853 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{buddys.waterless/buddys.waterless.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "buddys.waterless.MainActivity" on path: DexPathList[[zip file "/data/app/buddys.waterless-1/base.apk"],nativeLibraryDirectories=[/data/app/buddys.waterless-1/lib/arm64, /vendor/lib64, /system/lib64]]
+04-20 22:04:32.640 16853 16853 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "buddys.waterless.MainActivity" on path: DexPathList[[zip file "/data/app/buddys.waterless-1/base.apk"],nativeLibraryDirectories=[/data/app/buddys.waterless-1/lib/arm64, /vendor/lib64, /system/lib64]]
+04-20 22:04:32.640 16853 16853 E AndroidRuntime: 	Suppressed: java.lang.ClassNotFoundException: buddys.waterless.MainActivity
+04-20 22:04:32.650  3551  4275 W ActivityManager:   Force finishing activity buddys.waterless/.MainActivity
+04-20 22:04:32.690  3551  3658 D ISSUE_DEBUG: InputChannelName : c0158b8 Application Error: buddys.waterless
+04-20 22:04:32.720  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{c0158b8 u0 d0 Application Error: buddys.waterless}
+04-20 22:04:32.760  3551  3658 V WindowStateAnimator: Finishing drawing window Window{c0158b8 u0 d0 Application Error: buddys.waterless}: mDrawState=DRAW_PENDING
+04-20 22:04:32.770  3551  3658 V WindowStateAnimator: Finishing drawing window Window{c0158b8 u0 d0 Application Error: buddys.waterless}: mDrawState=HAS_DRAWN
+04-20 22:04:33.170  3551  3657 W ActivityManager: Activity pause timeout for ActivityRecord{fffce58 u0 buddys.waterless/.MainActivity t25935 f}
+04-20 22:04:33.230  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{c0158b8 u0 d0 Application Error: buddys.waterless}
+04-20 22:04:34.200  3551  4256 I ActivityManager: Process buddys.waterless (pid 16853)(adj 9) has died(87,420)
+04-20 22:04:34.200  3551  4256 D ActivityManager: isAutoRunBlockedApp:: buddys.waterless, Auto Run ON
+04-20 22:04:34.220  4486  4486 W ResourcesManager: getTopLevelResources: /data/app/buddys.waterless-1/base.apk / 1.0 running in com.android.systemui rsrc of package buddys.waterless
+04-20 22:04:34.260  3551  4197 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mServices
+04-20 22:04:34.260  3551  4197 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mProviders
+04-20 22:04:34.260  3551  4197 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mReceivers
+04-20 22:04:34.260  4486  4486 W ResourcesManager: getTopLevelResources: /data/app/buddys.waterless-1/base.apk / 1.0 running in com.android.systemui rsrc of package buddys.waterless
+04-20 22:04:39.910  4766  4766 I Timeline: Timeline: Activity_launch_request id:buddys.waterless time:90884912
+04-20 22:04:39.910  3551  3690 D ISSUE_DEBUG: InputChannelName : 9bd3bdf Starting buddys.waterless
+04-20 22:04:39.910  3551  4238 D GameManagerService: identifyGamePackage. buddys.waterless
+04-20 22:04:39.910  3551  4238 D MultiWindowPolicy: Gamemode - return 0,  when calling  identifyForegroundApp(buddys.waterless)
+04-20 22:04:39.910  3551  4238 V WindowManager: addAppToken: AppWindowToken{2d54400 token=Token{4077a83 ActivityRecord{38c3d32 u0 buddys.waterless/.MainActivity t25936}}} to stack=1 task=25936 at 0
+04-20 22:04:39.930 16874 16874 W SELinux : SELinux: seapp_context_lookup: seinfo=default, level=s0:c512,c768, pkgname=buddys.waterless 
+04-20 22:04:39.940  3551  4189 I ActivityManager: Start proc 16874:buddys.waterless/u0a284 for activity buddys.waterless/.MainActivity
+04-20 22:04:39.950  3551  3690 V WindowStateAnimator: Finishing drawing window Window{9bd3bdf u0 d0 Starting buddys.waterless}: mDrawState=DRAW_PENDING
+04-20 22:04:39.950  3551  4281 D ActivityManager:  Launching buddys.waterless, updated priority
+04-20 22:04:39.960 16874 16874 W ResourcesManager: getTopLevelResources: /data/app/buddys.waterless-1/base.apk / 1.0 running in buddys.waterless rsrc of package buddys.waterless
+04-20 22:04:39.960  3551  3657 V MARsPolicyManager: updatePackagesScore PackageInfo name -- buddys.waterless
+04-20 22:04:39.960  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{9bd3bdf u0 d0 Starting buddys.waterless}
+04-20 22:04:39.970 16874 16874 W System  : ClassLoader referenced unknown path: /data/app/buddys.waterless-1/lib/arm64
+04-20 22:04:39.970 16874 16874 D InjectionManager: fillFeatureStoreMap buddys.waterless
+04-20 22:04:39.970 16874 16874 I InjectionManager: Constructor buddys.waterless, Feature store :{}
+04-20 22:04:39.970 16874 16874 E AndroidRuntime: Process: buddys.waterless, PID: 16874
+04-20 22:04:39.970 16874 16874 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{buddys.waterless/buddys.waterless.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "buddys.waterless.MainActivity" on path: DexPathList[[zip file "/data/app/buddys.waterless-1/base.apk"],nativeLibraryDirectories=[/data/app/buddys.waterless-1/lib/arm64, /vendor/lib64, /system/lib64]]
+04-20 22:04:39.970 16874 16874 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "buddys.waterless.MainActivity" on path: DexPathList[[zip file "/data/app/buddys.waterless-1/base.apk"],nativeLibraryDirectories=[/data/app/buddys.waterless-1/lib/arm64, /vendor/lib64, /system/lib64]]
+04-20 22:04:39.970 16874 16874 E AndroidRuntime: 	Suppressed: java.lang.ClassNotFoundException: buddys.waterless.MainActivity
+04-20 22:04:39.970  3551  4201 W ActivityManager:   Force finishing activity buddys.waterless/.MainActivity
+04-20 22:04:40.020  3551  3658 D ISSUE_DEBUG: InputChannelName : 4c6c5c Application Error: buddys.waterless
+04-20 22:04:40.060  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{4c6c5c u0 d0 Application Error: buddys.waterless}
+04-20 22:04:40.080  3551  3658 V WindowStateAnimator: Finishing drawing window Window{4c6c5c u0 d0 Application Error: buddys.waterless}: mDrawState=DRAW_PENDING
+04-20 22:04:40.090  3551  3658 V WindowStateAnimator: Finishing drawing window Window{4c6c5c u0 d0 Application Error: buddys.waterless}: mDrawState=HAS_DRAWN
+04-20 22:04:40.510  3551  3657 W ActivityManager: Activity pause timeout for ActivityRecord{38c3d32 u0 buddys.waterless/.MainActivity t25936 f}
+04-20 22:04:40.560  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{4c6c5c u0 d0 Application Error: buddys.waterless}
+04-20 22:04:41.610  3551  4197 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mServices
+04-20 22:04:41.610  3551  4197 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mProviders
+04-20 22:04:41.610  3551  4197 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mReceivers
+04-20 22:04:42.260  3551  4256 I ActivityManager: Process buddys.waterless (pid 16874)(adj 9) has died(71,422)
+04-20 22:04:42.260  3551  4256 D ActivityManager: isAutoRunBlockedApp:: buddys.waterless, Auto Run ON
+04-20 22:04:42.930  4766  4766 I Timeline: Timeline: Activity_launch_request id:buddys.waterless time:90887932
+04-20 22:04:42.930  3551  3690 D ISSUE_DEBUG: InputChannelName : 3c3c8d Starting buddys.waterless
+04-20 22:04:42.930  3551  4233 D GameManagerService: identifyGamePackage. buddys.waterless
+04-20 22:04:42.930  3551  4233 D MultiWindowPolicy: Gamemode - return 0,  when calling  identifyForegroundApp(buddys.waterless)
+04-20 22:04:42.930  3551  4233 V WindowManager: addAppToken: AppWindowToken{aa3bcb6 token=Token{d22c51 ActivityRecord{29a7d78 u0 buddys.waterless/.MainActivity t25937}}} to stack=1 task=25937 at 0
+04-20 22:04:42.960 16897 16897 W SELinux : SELinux: seapp_context_lookup: seinfo=default, level=s0:c512,c768, pkgname=buddys.waterless 
+04-20 22:04:42.960  3551  3590 I ActivityManager: Start proc 16897:buddys.waterless/u0a284 for activity buddys.waterless/.MainActivity
+04-20 22:04:42.980  3551  3690 V WindowStateAnimator: Finishing drawing window Window{3c3c8d u0 d0 Starting buddys.waterless}: mDrawState=DRAW_PENDING
+04-20 22:04:42.980  3551  4192 D ActivityManager:  Launching buddys.waterless, updated priority
+04-20 22:04:42.980 16897 16897 W ResourcesManager: getTopLevelResources: /data/app/buddys.waterless-1/base.apk / 1.0 running in buddys.waterless rsrc of package buddys.waterless
+04-20 22:04:42.980  3551  3657 V MARsPolicyManager: updatePackagesScore PackageInfo name -- buddys.waterless
+04-20 22:04:42.990 16897 16897 W System  : ClassLoader referenced unknown path: /data/app/buddys.waterless-1/lib/arm64
+04-20 22:04:42.990 16897 16897 D InjectionManager: fillFeatureStoreMap buddys.waterless
+04-20 22:04:42.990 16897 16897 I InjectionManager: Constructor buddys.waterless, Feature store :{}
+04-20 22:04:42.990 16897 16897 E AndroidRuntime: Process: buddys.waterless, PID: 16897
+04-20 22:04:42.990 16897 16897 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{buddys.waterless/buddys.waterless.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "buddys.waterless.MainActivity" on path: DexPathList[[zip file "/data/app/buddys.waterless-1/base.apk"],nativeLibraryDirectories=[/data/app/buddys.waterless-1/lib/arm64, /vendor/lib64, /system/lib64]]
+04-20 22:04:42.990 16897 16897 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "buddys.waterless.MainActivity" on path: DexPathList[[zip file "/data/app/buddys.waterless-1/base.apk"],nativeLibraryDirectories=[/data/app/buddys.waterless-1/lib/arm64, /vendor/lib64, /system/lib64]]
+04-20 22:04:42.990 16897 16897 E AndroidRuntime: 	Suppressed: java.lang.ClassNotFoundException: buddys.waterless.MainActivity
+04-20 22:04:42.990  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{3c3c8d u0 d0 Starting buddys.waterless}
+04-20 22:04:43.000  3551  4197 W ActivityManager:   Force finishing activity buddys.waterless/.MainActivity
+04-20 22:04:43.030  3551  3658 D ISSUE_DEBUG: InputChannelName : 4eef0c0 Application Error: buddys.waterless
+04-20 22:04:43.060  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{4eef0c0 u0 d0 Application Error: buddys.waterless}
+04-20 22:04:43.090  3551  3658 V WindowStateAnimator: Finishing drawing window Window{4eef0c0 u0 d0 Application Error: buddys.waterless}: mDrawState=DRAW_PENDING
+04-20 22:04:43.100  3551  3658 V WindowStateAnimator: Finishing drawing window Window{4eef0c0 u0 d0 Application Error: buddys.waterless}: mDrawState=HAS_DRAWN
+04-20 22:04:43.520  3551  3657 W ActivityManager: Activity pause timeout for ActivityRecord{29a7d78 u0 buddys.waterless/.MainActivity t25937 f}
+04-20 22:04:43.560  3551  3658 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=Window{4eef0c0 u0 d0 Application Error: buddys.waterless}
+04-20 22:04:44.560  3551  4233 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mServices
+04-20 22:04:44.560  3551  4233 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mProviders
+04-20 22:04:44.560  3551  4233 D PackageManager: getComponentMetadataForIconTray : buddys.waterless.MainActivity does not exist in mReceivers
+04-20 22:04:45.360  3551  4214 I ActivityManager: Process buddys.waterless (pid 16897)(adj 9) has died(67,424)
+04-20 22:04:45.360  3551  4214 D ActivityManager: isAutoRunBlockedApp:: buddys.waterless, Auto Run ON
