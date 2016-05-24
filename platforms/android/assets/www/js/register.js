@@ -74,7 +74,7 @@ angular.module("myApp").controller("mainCtrl", function($scope, $uibModal){
 	$scope.register = function(){
 
 	    //Need the customer id before we create the stripe account
-	    $.post( "php/createCustomer.php?TOKEN=" + $scope.cardToken + "&EMAIL=" + $scope.inputEmail, function( data ) {
+	    $.post( "https://waterlessbuddys.com/php/createCustomer.php?TOKEN=" + $scope.cardToken + "&EMAIL=" + $scope.inputEmail, function( data ) {
 	        //TODO: Differentiate success/failure7 if necessary
 	        console.log(data);
 	        var customerID = JSON.parse(data.slice(21, data.len)).id;

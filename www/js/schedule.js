@@ -146,7 +146,7 @@ angular.module("myApp").controller("mainCtrl", function($scope, $uibModal){
         var aid = job.employee;
         var ccid = job.card;
         console.log(ccid);
-        var transactionURL = "https://www.waterlessbuddys.com/new_site/php/payForWash.php?TIPAMT="+tip+"&BASEAMT="+baseCost+"&CID="+cid+"&AID="+aid+"&CCID="+ccid;
+        var transactionURL = "https://www.waterlessbuddys.com/php/payForWash.php?TIPAMT="+tip+"&BASEAMT="+baseCost+"&CID="+cid+"&AID="+aid+"&CCID="+ccid;
 
          $.get( transactionURL, function( data ) {
 
@@ -428,7 +428,7 @@ angular.module('myApp').controller('jobCompletionCtrl', function ($scope, $uibMo
     Gets cards associated with a user
     */
     $scope.getCardsForUser = function(){
-        $.get( "https://www.waterlessbuddys.com/new_site/php/retrieveCustomer.php?CID=" + Parse.User.current().get("stripeAccount"), function( data ) {
+        $.get( "https://www.waterlessbuddys.com/php/retrieveCustomer.php?CID=" + Parse.User.current().get("stripeAccount"), function( data ) {
             var test = JSON.parse(data.slice(21, data.len));
             $scope.cards = test.sources.data;
             $scope.$apply();
