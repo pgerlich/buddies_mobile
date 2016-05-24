@@ -323,36 +323,5 @@
 
     </script>
 
-    <!-- push notifications catcher script
-    <button class="btn btn-default" type="button" onclick="test_notifications()">Test Notification</button>
-    <script>
-        function test_notifications(){
-            alert('AHH!');
-
-            $.ajax({
-                type: "POST",
-                url: "https://ortc-mobilepush.realtime.co/mp/publish",
-                crossDomain: true,
-                data:  {
-                    "applicationKey": "na8lOp",
-                    "privateKey": "ZY2TWQAN4lVp",
-                    "channel" : "my_channel",
-                    "message" : "I DON'T KNOW WHAT IM DOING",
-                    "payload" : "{'sound' : 'default','badge' : '1','name' : 'Joe','age' : '48'}"
-                },
-                success: function (data) {
-                    alert( "Data Loaded: " + data );
-                },
-                error: function (err) {
-                    alert( "Data Loaded: " + err );
-                }
-            });
-
-        }
-    </script>
-    <input type="hidden" name="channel" id="channel" value="my_channel" />
-    <script type="text/javascript" src="js/push-notifications.js"></script>
-    -->
-
 </body>
 </html>

@@ -101,7 +101,7 @@ angular.module("myApp").controller("mainCtrl", function($scope, $uibModal){
 			Gets cards associated with a user
 		*/
 		$scope.getCardsForUser = function(){
-			$.get( "http://paulgerlich.com/__projects/buddys/php/retrieveCustomer.php?CID=" + $scope.user.get("stripeAccount"), function( data ) {
+			$.get( "https://www.waterlessbuddys.com/php/retrieveCustomer.php?CID=" + $scope.user.get("stripeAccount"), function( data ) {
 			  var test = JSON.parse(data.slice(21, data.len));
 			  $scope.cards = test.sources.data;
 			  $scope.$apply();
@@ -187,7 +187,7 @@ angular.module("myApp").controller("mainCtrl", function($scope, $uibModal){
 
 	  	//Add a credit card
 	  	$scope.addCard = function(ccId){
-		    $.get( "http://paulgerlich.com/__projects/buddys/php/addCard.php?CID=" + $scope.user.get("stripeAccount") + "&TOKEN=" + ccId, function( data ) {
+		    $.get( "https://www.waterlessbuddys.com/php/addCard.php?CID=" + $scope.user.get("stripeAccount") + "&TOKEN=" + ccId, function( data ) {
 			  var test = JSON.parse(data.slice(17, data.len));
 			  $scope.cards.push(test);
 			  $scope.$apply();
@@ -196,7 +196,7 @@ angular.module("myApp").controller("mainCtrl", function($scope, $uibModal){
 
 	  	//Remove a card
 	  	$scope.removeCard = function(card){
-		    $.get( "http://paulgerlich.com/__projects/buddys/php/deleteCard.php?CID=" + $scope.user.get("stripeAccount") + "&CARDID=" + card.id, function( data ) {
+		    $.get( "https://www.waterlessbuddys.com/php/deleteCard.php?CID=" + $scope.user.get("stripeAccount") + "&CARDID=" + card.id, function( data ) {
 				$scope.cards.splice($scope.cards.indexOf(card), 1); //Remove from local view
 				alert("removed succesfully");
 			});
@@ -248,7 +248,7 @@ angular.module("myApp").controller("mainCtrl", function($scope, $uibModal){
 	  			console.log(response.error);
 	  			console.log("TODO: input validation");
 	  		} else {
-				$.get( "http://paulgerlich.com/__projects/buddys/php/addBankToEmployee.php?ACCID=acct_17cqc9A1OaInK8I9&TOKEN=" + response.id, function( data ) {
+				$.get( "https://www.waterlessbuddys.com/php/addBankToEmployee.php?ACCID=acct_17cqc9A1OaInK8I9&TOKEN=" + response.id, function( data ) {
 					console.log(data); 
 				});
 	  		}

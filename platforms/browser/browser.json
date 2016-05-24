@@ -9,24 +9,11 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "co.realtime.plugins.CordovaPush": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {},
-    "modules": [
-        {
-            "file": "plugins/co.realtime.plugins.CordovaPush/www/OrtcPlugin.js",
-            "id": "co.realtime.plugins.CordovaPush.OrtcPushPlugin",
-            "pluginId": "co.realtime.plugins.CordovaPush",
-            "clobbers": [
-                "OrtcPushPlugin"
-            ]
-        }
-    ],
+    "modules": [],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.1",
-        "co.realtime.plugins.CordovaPush": "0.1.12"
+        "cordova-plugin-whitelist": "1.2.1"
     }
 }

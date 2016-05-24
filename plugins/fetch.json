@@ -7,14 +7,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "co.realtime.plugins.CordovaPush": {
-        "source": {
-            "type": "registry",
-            "id": "cordovapush"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-android-support-v4": {
         "source": {
             "type": "registry",
